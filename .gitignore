@@ -1,0 +1,20 @@
+# Python and local development
+.venv/
+__pycache__/
+*.py[cod]
+
+# Streamlit runtime and credentials
+.streamlit/secrets.toml
+streamlit_*.log
+
+# Local roster state and business data. Team members upload their own workbook.
+preferences.json
+*.xlsx
+*.xls
+*.csv
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
